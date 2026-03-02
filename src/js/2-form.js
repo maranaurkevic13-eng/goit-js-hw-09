@@ -25,7 +25,8 @@ form.addEventListener('submit', e => {
 
 
     if (!formData.email || !formData.message) {
-        return "Fill please all fields";
+        alert("Fill please all fields");
+        return;
     }
     console.log(formData);
 
